@@ -1,16 +1,81 @@
-# React + Vite
+# FileBuddy
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive browser-based file manager built with React. Upload, preview, search, download, and manage files through a clean interface.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Open FileBuddy](https://lambent-chaja-765d34.netlify.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Drag-and-drop file uploads
+- Preview supported image files
+- Download files
+- Remove files
+- Search files by name
+- Persistent local storage with IndexedDB
+- Responsive layout for desktop and mobile
+- Dark themed interface
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- Vite
+- CSS
+- IndexedDB
+- HTML
+
+## Getting Started
+
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Bharathpurvath/filebuddy.git
+   ```
+
+2. Move into the project directory:
+
+   ```bash
+   cd filebuddy
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Production Build
+
+Run the following command to create a production build:
+
+```bash
+npm run build
+```
+
+The generated files will be in the `dist` directory.
+
+## Storage and Privacy
+
+Files are stored locally in the browser using IndexedDB. They are not automatically uploaded to a cloud server or synchronized across devices. Clearing browser site data may remove locally stored files.
+
+## Author
+
+**Bharath B**
+
+[GitHub Profile](https://github.com/Bharathpurvath)
