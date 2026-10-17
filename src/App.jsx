@@ -191,7 +191,7 @@ function App() {
         <h1>
           All your files
           <br />
-          <span>in one place</span>
+          <span>in one place!</span>
         </h1>
         <p className="subtitle">
           Upload, preview, search and download your files with ease
